@@ -1,0 +1,49 @@
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (test)
+$ git pull origin master
+
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (test)
+$ git checkout -b New-context-Test
+Switched to a new branch 'New-context-Test'
+
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (New-context-Test)
+$ git status
+On branch New-context-Test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Test
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (New-context-Test)
+$ git add Test
+
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (New-context-Test)
+$ git status
+On branch New-context-Test
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Test
+
+
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (New-context-Test)
+$ git commit -m 'New context in Test'
+[New-context-Test ff17629] New context in Test
+ 1 file changed, 2 insertions(+)
+
+
+hyu14@DESKTOP-5PSEI6V MINGW64 ~/Desktop/testPull/LeetCodePractice (New-context-Test)
+$ git push origin New-context-Test
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 265 bytes | 265.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'New-context-Test' on GitHub by visiting:
+remote:      https://github.com/haoyuliao/LeetCodePractice/pull/new/New-context-Test
+remote:
+To https://github.com/haoyuliao/LeetCodePractice.git
+ * [new branch]      New-context-Test -> New-context-Test
